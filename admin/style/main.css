@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+body {background: #e7e8eb; font-family: "微软雅黑", serif; }
+a:hover {color: #60ba2c;}
+#header {margin-bottom: 37px;height: 50px;border-top: 4px solid #60ba2c;background: #fff;}
+#header .logo {float: left;margin: 13px 0 0 15px;}
+#header .logo a {font-size: 22px;}
+#header .user {float: right; margin: 13px 15px 0 0;}
+#header .user li {float: left;}
+#header .user .user_name {margin-right: 21px;}
+#header .user img#head_pic {margin-right: 13px;width: 30px;height: 30px;border-radius: 5px;}
+#header a span {float: right;margin-top: 7px;font-size: 13px;}
+#header li#sign_out {margin-top: 7px;color: #eee7f1;} 
+#header li#sign_out a {margin-top: 10px;margin-left: 14px;font-size: 13px;}
+
+.container {margin: 0 auto;width: 1207px;}
+#content {margin-bottom: 36px;border: 1px solid #ddd;background: #fff;}
+#content  .list {float: left;width: 209px;background: #fff;}
+#content .topic:first-child {border-bottom: 1px solid #ddd;}
+#content .topic .topic_title {padding: 19px 0 0 25px;font-size: 16px;color: #868686;}
+#content .topic #topic_title2 {padding-top: 7px;}
+#content .topic .topic_title i {font-size: 24px;padding-right: 11px;}
+#content .topic ul {margin: 6px 0 5px;}
+#content .topic li {padding-left: 60px;height: 33px;font-size: 14px;line-height: 33px;color: #000;cursor: pointer;}
+#content .topic li:hover {background: #f4f5f9;}
+#content .topic li.active {background: #60ba2c;color: #fff;} 
+#content .main {margin-left: 209px;background: #fff;min-height: 600px;border-left: 1px solid #ddd;}
+#content .main .section {display: none;}
+#content .main .main_title {height: 80px;border-bottom: 1px solid #ddd;}
+#content .main .main_title h2 {padding: 26px 0 0 15px;font-size: 16px;font-family: "宋体";color: #000;}
+#content .main .main_title p {margin-top: 5px; text-indent: 15px; color: #bbb;}
+#content .main_content ul {padding: 29px 0 0 16px;height: 40px;/*background: red;*/}
+#content .main_content ul li {float: left;margin-right: 35px;font-size: 14px;color: #666;}
+#content .main_content ul li span {color: red;}
+#content .main_content table {margin: 0 15px;width: 967px;font-size: 14px;border: 1px solid #ececec;}
+#content .main_content thead {height: 36px;background: #f7f7fb;}
+#content .main_content thead th {padding-left: 15px; line-height: 36px; }
+#content .main_content tbody tr {height: 35px; line-height: 35px;}
+#content .main_content tbody td {padding-left: 15px;}
+#content .main_content p {margin: 0 0 25px 15px;width: 900px; font: 16px/20px "微软雅黑";}
+#content .main_content .first_p {margin-top: 30px;}
+#content .main_content p strong {color: red; }
+#content .main_content .form1 {margin-left: 15px;}
+#content .form1 div {margin-bottom: 10px;}
+#content .form1 label {display: inline-block;width: 100px;height: 30px; font: 16px/16px "微软雅黑"; text-align: left;}
+#content .form1 label[for="description"], #content .form1 label[for="require"], #content .form1 label[for="answer"] {float: left;}
+/*#content .from1 #description, #content .form1 #require, #content .form1 #answer {display: inline-block; float: right;}*/
+#content .form1 input, #content .form1 select, #content .form1 option {border: 1px solid #ccc; border-radius: 3px;width: 200px;height: 30px;font: 16px/16px "微软雅黑";}
+#content .form1 textarea {margin-left: 3px; border: 1px solid #ccc; border-radius: 3px; font: 16px/16px "微软雅黑";}
+#content .form1 option {border: none;}
+#content .form1 #courseAddress {width: 400px;}
+
+
+
+/* course.php */
+#content .main_content .course_list {margin-top: 20px;}
+#content .course_list .list_title {margin-left: 15px; width: 950px; height: 50px; border-bottom: 1px solid #ccc;}
+#content .course_list h3 {padding: 3px 0; height: 36px; font: bold 15px/15px "微软雅黑"; text-indent: 20px;line-height: 36px; cursor: pointer; }
+#content .course_list h3:hover, #content .course_list ol li:hover {background: rgba(96, 186, 44, .6);}
+#content .course_list span {float: right; display: block; margin-right: 20px; font-size: 20px; line-height: 36px;}
+#content .course_list ol {margin: 5px 0 0 15px; width: 950px;}
+#content .course_list ol li {height: 36px; font: 14px/14px "微软雅黑"; line-height: 36px; text-indent: 40px;}
+
+/* exercise */
+#content .main_content .exercise {margin: 20px 0 0 15px;}
+#content .exercise .exercise-topic {margin-bottom: 20px;}
+#content .exercise-topic h4 {width: 960px; height: 40px; background: #eee; text-indent: 20px; font: 15px/40px "微软雅黑";}
+#content .exercise-topic h4 span {margin-left: 10px; color: #ccc;}
+#content .exercise-topic h4 a {float: right; margin: 5px 20px; padding-right: 20px; width: 80px; height: 30px; font: 15px/30px "微软雅黑"; text-align: center;  background: #60ba2c; color: #fff; opacity: .8;}
+#content .exercise-topic h4 a:hover {opacity: 1;}
+#content .exercise-topic .description {margin: 15px 0 0 35px;}
+#content .description h5 {display: inline; margin: 20px 0 0; font-size: 14px;}
+#content .description h5 strong {color: red; font-weight: bold;}
+#content .description h5 span {margin-left: 15px;}
+#content .description p {margin-top: 10px; font: 14px "微软雅黑"; text-indent: 70px;}
+#content .description p.explain {display: inline; margin-left: 40px;}
+
+/* comment */
+#content .comment_title {margin: 10px 15px 0 15px; padding-bottom: 10px; border-bottom: 1px solid #ccc;}
+#content .notice {margin: 10px 0; text-indent: 15px;}
+#content .comment {margin-bottom: 5px;padding:12px;/*position:relative;*/left: 85px;background-color:#fcfcfc;border:1px solid white;color:#888;margin-bottom:25px;}
+#content .comment .comment-list {margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px solid #eee;}
+#content .comment .comment-list a {margin-left: 3px;}
+#content  .comment .comment-list span {float: right;}
+#content .comment .face {float: left;height:50px;left:-70px;/*position:absolute;*/width:50px; margin-top:-25px;}
+#content .comment .face a img {display:block;margin: 20px 0 0 3px; width: 50px;height: 50px;}
+#content .comment .username { font-size:20px;padding-bottom:10px;color:#ccc;}
+#content .comment .username a {margin: -48px 0 0 20px;}
+#content .comment .date {float: right; margin: -42px 50px 0 0;font-size:10px; padding: 6px 0; color:#bbb;}
+#content .comment p {font-size: 18px;line-height:1.5; text-indent: 60px; /*overflow-x:hidden;*/}
+#content .comment a {color:#000;text-decoration:none;outline:none;}
+#content .comment a:hover {color: #60ba2c; text-decoration:underline;}
+#content .comment a img {border:none;}
+#content .comment-form {padding: 10px 15px 0 0;}
+#content .comment-form h3 {margin-left: 15px; padding-bottom: 10px; border-bottom: 1px solid #ccc;}
+#content .comment-form label {display: inline-block; width: 60px; text-align: right; font: 14px/14px "微软雅黑"; }
+#content .comment-form label[for="content"], .comment-form label[for="face"] {float: left;}
+#content .comment-form input {margin: 10px 0;}
+#content .comment-form textarea {margin-left: 3px;}
+#content .comment-form img {width: 50px; height: 50px;}
+
+/* course-video.php */
+#content .video {padding-bottom: 10px; min-height: 600px; border-bottom: 1px solid #ccc;}
+#content .video .subnav	{height: 80px; border-bottom: 1px solid #ccc;}
+#content .subnav p {font: 18px/18px "微软雅黑"; line-height: 80px; text-indent: 50px;}
+#content .subnav a.next_course {float: right;  margin-right: 50px;}
+#content .video .course_video {margin: 15px auto 0;width: 960px; }
+#content .course_video video {height: 550px;}
+
+/* course-exercise.php */
+#content .exercises {margin: 20px 0; padding: 10px 15px;}
+#content .exercises h2 {font: 18px/18px "微软雅黑";}
+#content .exercises strong {line-height: 20px; color: red;}
+#content .exercises .test {margin-top: 20px; border-bottom: 1px solid #ccc;}
+#content .test .title {font: 15px/15px "微软雅黑";}
+#content .test h4 {margin: 10px 0;}
+#content .test .description {margin-top: 10px; color: #ccc; font: 15px/15px "微软雅黑";}
+#content .test .prompt {margin: 10px 0; width: 200px; height: 30px; font: 16px/30px "微软雅黑"; color: red; cursor: pointer;}
